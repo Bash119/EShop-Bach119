@@ -4,7 +4,7 @@ using CatalogAPI.ProGetProductByIdResponseducts.GetProductById;
 
 namespace CatalogAPI.Products.GetProductById
 {
-    public record GetProductByIdRequest(Guid Id);
+    //public record GetProductByIdRequest(Guid Id);
 
     public record GetProductByIdResponse(Product Product);
     public class GetProductByIdEndPoint : ICarterModule
